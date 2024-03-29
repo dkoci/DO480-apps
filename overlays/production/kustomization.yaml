@@ -4,7 +4,7 @@ bases:
 - ../../base
 
 resources:
-- claim-pvc.yaml
+- dbclaim-pvc.yaml
 - route.yaml
 
 namePrefix: prod-

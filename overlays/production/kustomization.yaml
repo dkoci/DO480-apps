@@ -1,0 +1,10 @@
+kind: Kustomization
+
+bases:
+- ../../base
+
+resources:
+- db-claim.yaml
+- route.yaml
+
+namePrefix: prod-
